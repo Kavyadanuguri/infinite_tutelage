@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+body,
+html {
+  font-family: Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.container {
+  display: flex;
+}
+.side-container {
+  background-color: #b25fed;
+  min-height: 100vh;
+  width: 18vw;
+  padding-top: 10px;
+  padding-left: 25px;
+}
+.side-image1 {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-left: -20px;
+}
+.side-con11 {
+  display: flex;
+  margin-bottom: 20px;
+}
+.side-image2 {
+  height: 17px;
+  width: 18px;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.side-image3 {
+  height: 25px;
+  width: 25px;
+  margin-top: 1px;
+  margin-right: 5px;
+  margin-left: -3px;
+}
+.side-image4 {
+  height: 35px;
+  width: 35px;
+  margin-top: 1px;
+  margin-right: 5px;
+  margin-left: -3px;
+}
+.side-image5 {
+  height: 40px;
+  width: 35px;
+  margin-top: 1px;
+  margin-right: 5px;
+  margin-left: 0px;
+}
+.side-p1 {
+  color: #ffffff;
+  font-weight: bold;
+  margin-left: 3px;
+}
+
+.side-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 110vh;
+  padding-bottom: 30px;
+}
+.side-line {
+  border-width: 1px;
+  color: #ffffff;
+  width: 100%;
+  margin-left: -10px;
+  margin-bottom: 20px;
+}
+.side-image-container {
+  text-align: center;
+}
+header {
+  box-shadow: 0px 1px 4px 0px #a6a6a6;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+  padding-left: 10px;
+}
+.main-container {
+  width: 82vw;
+  min-height: 100vh;
+}
+.bell-icon {
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+}
+.search-container {
+  display: flex;
+}
+.search-container1 {
+  display: flex;
+  border: 1px solid black;
+  width: 300px;
+  height: 35px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  margin-right: 10px;
+  padding-left: 5px;
+}
+.input-element {
+  width: 260px;
+  height: 35px;
+  padding-left: 20px;
+  margin-left: 10px;
+  border-collapse: collapse;
+}
+.container1 {
+  border: 2px solid #f2f5f3;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+  width: 100%;
+  margin-right: -500px;
+}
+.container11 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sea-container {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-arrow {
+  width: 35px;
+  height: 30px;
+  margin-top: 12px;
+}
+.con-111 {
+  background-color: #f2f5f3;
+  padding: 15px;
+  text-align: center;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.overview-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.p-download {
+  color: #ad8edd;
+  margin-left: 5px;
+}
+.yearly {
+  background-color: #c8a2db;
+  padding: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.monthly {
+  color: #98a2b3;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.month {
+  color: #98a2b3;
+  margin-top: 0px;
+}
+.bold-num {
+  color: #344054;
+  font-weight: bold;
+  font-size: 30px;
+}
+.graph-img {
+  margin-top: 15px;
+  width: 700px;
+}
+.aside-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.aside-con1 {
+  border: 2px solid #f2f5f3;
+  padding: 10px;
+  margin: 10px;
+  margin-top: 20px;
+}
+.secondary-panel {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 10px;
+  gap: 20px;
+}
+
+.trading-accounts-section,
+.open-trades-section {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.account-item,
+.trade-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #ddd;
+  border-radius: 9px;
+}
+
+.section-title {
+  padding-bottom: 9px;
+}
+
+.account-name,
+.account-id,
+.account-balance {
+  padding-bottom: 9px;
+}
+
+.account-balance {
+  font-size: 20px;
+}
+
+.account-ticker {
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 5px;
+}
+.long {
+  background-color: #a1edbd;
+  padding: 5px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.short {
+  background-color: #fcc1bb;
+  padding: 5px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.trade-positive {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trade-negative {
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.trade-neutral {
+  color: gray;
+  font-size: 20px;
+}
